@@ -1,0 +1,20 @@
+:root {
+    --main-color: #212121;
+    --second-color: #757575;
+    --background-color: #FFFFFF;
+    --secondbackground-color: #2F303A;
+    --accent-color: #2196F3;
+    --background-color-current: #188CE8;
+    --background-color-team: #F5F4FA;
+    --second-font: 'Raleway', sans-serif;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+    --mailtel-color: rgba(255, 255, 255, 0.6);
+
+    --idx-backdrop: 1000;
+}
+
+// BREKPOINT
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1200px;

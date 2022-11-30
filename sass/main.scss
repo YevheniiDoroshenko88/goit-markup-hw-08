@@ -1,0 +1,27 @@
+// utils styles
+@import "./utils/variebles";
+
+
+// base styles
+@import "./base/base";
+@import "./base/reset";
+
+
+// components styles
+@import "./components/container";
+@import "./components/section.scss";
+@import "./components/buttons.scss";
+@import "./components/header.scss";
+@import "./components/logo";
+@import "./components/navigation";
+@import "./components/hero";
+@import "./components/aside";
+@import "./components/job";
+@import "./components/team";
+@import "./components/client";
+@import "./components/footer";
+@import "./components/portfolio";
+@import "./components/modal";
+
+
+

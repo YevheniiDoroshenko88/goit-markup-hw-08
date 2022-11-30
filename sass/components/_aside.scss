@@ -1,0 +1,82 @@
+.aside {
+    @media screen and (min-width: $mobile) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
+
+.aside__container .aside__site {
+    // display: flex;
+    text-align: start;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: $tablet) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+    
+    }
+
+    @media screen and (min-width: $desktop) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        display: flex;
+    }
+}
+.aside__visually__hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.aside__four {
+    flex-basis: calc((100% - 30px * 3) / 4);
+    
+}
+.aside__group {
+    display: flex;
+    background-color: #F5F5F5;
+    // width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.aside__icon {
+    display: block;  
+}
+.aside__subtitle {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+    margin-top: 0;
+    text-align: center;
+}
+.aside__text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+    margin-top: 10px;
+}
