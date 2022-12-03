@@ -1,11 +1,18 @@
 .title-client {
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    font-size: 28px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-color);
+    margin-bottom: 30px;
+    font-style: normal;
+    
+    @media screen and (min-width: 1200px) {
     margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.16;
+}
 }
 .site-client {
     display: flex;
@@ -15,10 +22,20 @@
     padding-left: 0;
     gap: 30px;
     list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    -webkit-box-pack: center;
 }
 
 .client-logo {
     flex-basis: 170px;
+
+    @media screen and (min-width: 480px) and (max-width: 1199px) {
+    min-width: 210px;
+}
+    @media screen and (min-width: 1200px) {
+    width: 170px;
+}
 }
 
 .client-logo-svg {

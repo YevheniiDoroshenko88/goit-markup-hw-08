@@ -23,4 +23,10 @@
     &:focus {
     background-color: var(--background-color-current);
 }
+
+@media screen and (min-width: 1200px) {
+    line-height: 1.87;
+    cursor: pointer;
+    border: none;
+}
 }

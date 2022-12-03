@@ -1,21 +1,26 @@
 .page-footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    
+    background-color: var(--secondbackground-color);
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 1199px) {
+    text-align: center;
+}
 }
 .first-container {
     display: flex;
     align-items: baseline;
+    flex-wrap: wrap;
 }
 .footer-container {
     margin-right: 70px;
+    flex-wrap: wrap;
 }
 
-.page-footer {
-    background-color: var(--secondbackground-color);
-}
 .footer-address {
     margin-top: 20px;
+    
 }
 .footer-nav {
     margin-bottom: 9px;
@@ -61,7 +66,11 @@
     color: var(--accent-color);
 }
 }
-
+.footer-icon {
+    @media screen and (max-width: 767px) {
+    margin-top: 60px;
+}
+}
 .footer-title {
     font-weight: 700;
     font-size: 14px;
@@ -72,6 +81,7 @@
 }
 .footer-list {
     display: flex;
+    justify-content: center;
 }
 
 .footer-team__messeg {
@@ -131,9 +141,17 @@
     color: #fff;
     padding-left: 16px;
     letter-spacing: 0.06em;
+    
+
+    @media (max-width: 1199px) {
+    margin-top: 20px;
+}
 }
 .footer-group {
     margin-left: 93px;
+    @media screen and (max-width: 1199px) {
+    margin-top: 60px;
+}
 }
 .footer-form {
     display: flex;
