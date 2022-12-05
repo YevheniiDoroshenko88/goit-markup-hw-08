@@ -23,8 +23,8 @@
     }
 
     @media screen and (min-width: 768px) {
-        display: block;
-        // display: flex;
+        // display: block;
+        display: flex;
         margin-left: auto;
     }
     
@@ -34,10 +34,19 @@
     -ms-flex-direction: column;
     flex-direction: column;
     gap: 10px;
+    display: flex;
 }
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
+        
+    
 }
 .auth-nav .auth-item + .auth-item {
-    margin-left: 50px;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        margin-left: 50px;
+    }
 }
 .header-auth-link {
     display: block;
@@ -47,8 +56,8 @@
     letter-spacing: 0.02em;
     color: var(--second-color);
     text-decoration: none;
-    padding-top: 32px;
-    padding-bottom: 32px;  
+    // padding-top: 32px;
+    // padding-bottom: 32px;  
     object-fit: contain;
 
     transition-property: color;
@@ -59,12 +68,22 @@
     &:focus {
     color: var(--accent-color);
 }
+    
 }
-
+.auth-item {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        padding-bottom: 10px;
+    }
+}
 .mail {
     margin-right: 10px;
     fill: currentcolor;
     vertical-align: middle;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        width: 14px;
+        height: 10px;
+    }
 }
 .header-auth-link > .mail:hover,
 .header-auth-link > .mail:focus {
@@ -74,6 +93,11 @@
     margin-right: 10px;
     fill: currentcolor;
     vertical-align: middle;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        width: 10px;
+        height: 14px;
+    }
 }
 .header-auth-link >.tel:hover,
 .header-auth-link >.tel:focus {

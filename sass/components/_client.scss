@@ -19,12 +19,19 @@
     fill: #AFB1B8;
     text-align: center;
     margin: 0;
-    padding-left: 0;
+    // padding-left: 0;
     gap: 30px;
     list-style: none;
     flex-wrap: wrap;
     justify-content: center;
     -webkit-box-pack: center;
+
+    @media screen and (min-width: 1200px) {
+        padding-left: 0;
+    }
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        padding-left: 0;
+    }
 }
 
 .client-logo {
