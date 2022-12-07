@@ -25,13 +25,13 @@
     // tablet
     @media screen and (min-width: 481px) {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../../images/Header\ imgnew768.png);    
+    url(../images/Header\ imgnew768.png);    
 
     @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../../images/Header\ imgnew1536.png);
+    url(../images/Header\ imgnew1536.png);
     // padding: 118px;
     }
     }
