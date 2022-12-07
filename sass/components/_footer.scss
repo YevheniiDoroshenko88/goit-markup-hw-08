@@ -155,7 +155,7 @@
 }
 .mail-input-footer {
     box-sizing: border-box;
-    width: 358px;
+    
     height: 50px;
     left: 815px;
     top: 2784px;
@@ -167,10 +167,15 @@
     padding-left: 16px;
     letter-spacing: 0.06em;
     
-
+    @media (min-width: 480px) {
+        width: 358px;
+    }
     @media (max-width: 1199px) {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+    @media (min-width: 1200px) {
+    margin-right: 12px;
 }
 }
 .footer-group {

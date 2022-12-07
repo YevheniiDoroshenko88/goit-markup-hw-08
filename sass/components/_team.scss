@@ -30,6 +30,7 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     
+    
     @media screen and (min-width: 480px) {
     -ms-flex-preferred-size: 450px;
     flex-basis: 450px;
@@ -116,4 +117,9 @@
 .team__svg:hover .team__messeg, 
 .team__svg:focus .team__messeg {
     fill: var(--background-color);
+}
+.team__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
